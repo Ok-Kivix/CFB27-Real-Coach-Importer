@@ -13,6 +13,7 @@
 // Usage: node index.js [savePath] [--dry-run] [--names-only] [--out=<path>] [--json]
 const fs = require('fs');
 const path = require('path');
+const paths = require('./paths');
 const { resolveSavePath } = require('./savePicker');
 const {
   openSave, readTable, followStatsRef, sf, CAREER_COACH_STATS_UID,
@@ -61,8 +62,8 @@ async function main() {
     console.log(`${c.dim}────────────────────────────────────────────${c.reset}\n`);
   }
 
-  process.env.RG_SCHEMA_DIR = path.join(__dirname, 'schema');
-  const dataset = JSON.parse(fs.readFileSync(path.join(__dirname, 'coaches.json'), 'utf8'));
+  if (!process.env.RG_SCHEMA_DIR) process.env.RG_SCHEMA_DIR = paths.SCHEMA_DIR;
+  const dataset = JSON.parse(fs.readFileSync(paths.COACHES_JSON, 'utf8'));
 
   const savePath = await resolveSavePath(positional, c);
   if (!asJson) {
@@ -209,7 +210,13 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error(`\n${c.red}Error: ${err.message || err}${c.reset}`);
-  process.exit(1);
-});
+// Run directly (`node index.js`); when required by entry.js the packaged exe
+// drives main() itself so it can pause before the console window closes.
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(`\n${c.red}Error: ${err.message || err}${c.reset}`);
+    process.exit(1);
+  });
+}
+
+module.exports = { main };

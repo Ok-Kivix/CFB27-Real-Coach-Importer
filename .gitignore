@@ -1,6 +1,9 @@
-# Bundled runtime + deps (recreated by setup.cmd) — not committed
+# Bundled runtime + deps (recreated by npm install) — not committed
 node/
 node_modules/
+
+# Packaged distributable output (produced by npm run build-exe)
+build/dist/
 
 # Tool output / working saves
 *-REALCOACHES

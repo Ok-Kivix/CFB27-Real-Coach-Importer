@@ -1,16 +1,28 @@
 {
   "name": "cfb27-real-coaches",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Standalone tool: correct a CFB27 dynasty save's generic head coaches to their real-life identities (name + likeness + historic career stats).",
   "main": "index.js",
-  "bin": { "real-coaches": "index.js" },
+  "bin": {
+    "real-coaches": "index.js"
+  },
   "scripts": {
     "start": "node index.js",
-    "build-dataset": "node build-dataset.mjs"
+    "build-dataset": "node build-dataset.mjs",
+    "build-exe": "node build/package.mjs"
   },
   "dependencies": {
     "@toondepauw/node-zstd": "^2.0.0",
     "madden-franchise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.21.0"
+  },
+  "pkg": {
+    "targets": [
+      "node22-win-x64"
+    ],
+    "outputPath": "build"
   }
 }

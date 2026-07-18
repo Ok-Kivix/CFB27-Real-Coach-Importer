@@ -4,35 +4,41 @@ A small Windows tool that fixes the **generic / missing head coaches** in an
 **EA Sports College Football 27** dynasty save. It gives each affected coach
 their real name, their real in-game **likeness** (3D head + portrait, using the
 game's own coach art), and their real-life **historic career record** — all as a
-pure save edit. No game files are modified; nothing is installed globally.
+pure save edit. No game files are modified; your original save is never touched.
 
 On a fresh CFB27 roster, EA ships most head coaches as real, correct likenesses,
 but leaves a handful as generic placeholders — for example **Deion Sanders,
 Kirk Ferentz, Mario Cristobal, Bill Belichick, Bronco Mendenhall, Blake
 Anderson**. This tool detects those and restores them.
 
-## Setup (once)
+## Download & use (no install)
 
-1. Install [Node.js 20+](https://nodejs.org) if you don't have it.
-2. Double-click **`setup.cmd`**. It installs the dependencies and bundles a local
-   copy of Node so the tool runs on its own afterward.
+1. Download **`CFB27-Real-Coaches.zip`** from the
+   [latest release](https://github.com/KivJoy/CFB27-Real-Coach-Importer/releases/latest).
+2. Unzip it anywhere.
+3. Make sure CFB27 is closed, then double-click **`Real-Coaches.exe`**.
+4. Pick your dynasty save from the list (or paste a path).
+5. Load the newly created **`<yoursave>-REALCOACHES`** copy in CFB27.
 
-## Use
+**Node.js is not required** — the `.exe` is self-contained. Keep the files that
+ship next to it (`coaches.json`, `schema\`, `runtime\`) in the same folder; the
+tool reads them at startup.
 
-Double-click **`run.cmd`**, or from a command prompt in this folder:
+### Options
+
+Open a Command Prompt in the unzipped folder to pass flags:
 
 ```
-run.cmd                 pick your save, then it corrects a COPY
-run.cmd --dry-run       audit only — show what would change, write nothing
-run.cmd --names-only    rename + face only; skip historic stats
-run.cmd --json          machine-readable audit
-run.cmd "C:\full\path\to\DYNASTY-MYSAVE"
+Real-Coaches.exe                 pick your save, then correct a COPY
+Real-Coaches.exe --dry-run       audit only — show what would change, write nothing
+Real-Coaches.exe --names-only    rename + face only; skip historic stats
+Real-Coaches.exe --json          machine-readable audit
+Real-Coaches.exe "C:\path\to\DYNASTY-MYSAVE"
 ```
 
 With no path given, it auto-detects your saves folder at
 `Documents\EA SPORTS College Football 27\saves` (including a OneDrive-redirected
-Documents), lists your dynasty saves, and lets you pick one by number. If none
-are found it asks for a full path.
+Documents), lists your dynasty saves, and lets you pick one by number.
 
 ## What it does
 
@@ -44,6 +50,15 @@ are found it asks for a full path.
    titles, national titles) into the save's coach stats.
 5. Saves everything to a **new copy** named `<yoursave>-REALCOACHES`. Your
    original save is never touched — load the copy in the game.
+
+The correct game **schema is auto-detected** from each save, so the tool works
+across game patches as long as a matching schema file is bundled (both the
+pre-patch and current schemas ship in the release).
+
+## Editing the coach data
+
+`coaches.json` sits next to the `.exe` and is plain, editable JSON. Open it in
+Notepad to add or change a coach, save, and re-run the tool — no rebuild needed.
 
 ## Safety notes
 
@@ -57,11 +72,32 @@ are found it asks for a full path.
   career-stat slot in the save, so their record can't be attached (the audit
   labels these `stats-ref empty`).
 
-## How the data is built (optional)
+## Building from source (developers)
+
+Requires [Node.js 20+](https://nodejs.org).
+
+```
+npm install
+npm start                        run against a save (same flags as above)
+node index.js --dry-run          audit only
+npm run build-exe                produce build\dist\CFB27-Real-Coaches.zip
+```
+
+`npm run build-exe` bundles a Node runtime into a single Windows `.exe` (via
+[`@yao-pkg/pkg`](https://github.com/yao-pkg/pkg)) and assembles the distributable
+folder + zip. It preflights first — validating `coaches.json` and loading every
+bundled schema — so a broken asset fails the build rather than a user's run.
+
+### Adding a schema for a new game patch
+
+Drop the new schema file into `schema\`, named `CFB27_<major>_<minor>.gz` (the
+tool also accepts `C27_<major>_<minor>.gz`), and rebuild. A save whose version
+has no bundled schema gets a clear error naming the exact file to add.
+
+### Regenerating the dataset (optional)
 
 `coaches.json` is generated from `stats-source.json` (hand-collected career
-records, cited inside the file) plus the likeness assets. To regenerate it you
-need a clean CFB27 save to read likeness data from:
+records, cited inside the file) plus likeness assets read from a clean save:
 
 ```
 node build-dataset.mjs path\to\a\clean\DYNASTY-save

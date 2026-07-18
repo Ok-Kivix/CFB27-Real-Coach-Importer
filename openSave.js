@@ -5,20 +5,51 @@
 const path = require('path');
 const { FranchiseFile } = require('madden-franchise');
 
+const fs = require('fs');
 const SCHEMA_DIR = process.env.RG_SCHEMA_DIR || path.resolve(__dirname, 'schema');
-const SCHEMA_OVERRIDE = () => ({ major: 809, minor: 0, gameYear: 27, path: path.join(SCHEMA_DIR, 'CFB27_809_0.gz') });
 
-/** Open a CFB27 dynasty save; resolves once tables are parsed. */
+/**
+ * Map a save's expected schema version to a bundled schema file. Files are named
+ * CFB27_<major>_<minor>.gz. We MUST supply the path explicitly: madden-franchise's
+ * built-in schemaPicker silently falls back to an unrelated bundled schema when it
+ * can't match, which parses the save incorrectly.
+ */
+function schemaFileFor(meta) {
+  const names = [`CFB27_${meta.major}_${meta.minor}.gz`, `C27_${meta.major}_${meta.minor}.gz`];
+  for (const name of names) {
+    const p = path.join(SCHEMA_DIR, name);
+    if (fs.existsSync(p)) return p;
+  }
+  let have = [];
+  try { have = fs.readdirSync(SCHEMA_DIR).filter((f) => f.endsWith('.gz')); } catch {}
+  throw new Error(
+    `No bundled schema for version ${meta.major}_${meta.minor} (gameYear ${meta.gameYear}).\n`
+    + `This save is likely from a different game patch. Available schemas: ${have.join(', ') || '(none)'}.\n`
+    + `Add a matching schema file (named CFB27_${meta.major}_${meta.minor}.gz) to the schema folder.`,
+  );
+}
+
+/**
+ * Open a CFB27 dynasty save; resolves once tables are parsed. The correct schema
+ * is auto-selected from the version the save itself declares, so saves from any
+ * game patch work as long as a matching schema file is bundled.
+ */
 function openSave(savePath, { autoUnempty = false } = {}) {
   return new Promise((resolve, reject) => {
-    const f = new FranchiseFile(savePath, {
-      autoParse: true,
-      schemaDirectory: SCHEMA_DIR,
-      schemaOverride: SCHEMA_OVERRIDE(),
-      autoUnempty,
-    });
+    let f;
+    try {
+      // autoParse:false lets us read the save's own schema version (computed in the
+      // constructor) before parsing, then force the exact matching schema file.
+      f = new FranchiseFile(savePath, { autoParse: false, schemaDirectory: SCHEMA_DIR, autoUnempty });
+      const expected = f.expectedSchemaVersion;
+      f.settings.schemaOverride = {
+        major: expected.major, minor: expected.minor, gameYear: expected.gameYear,
+        path: schemaFileFor(expected),
+      };
+    } catch (err) { reject(err); return; }
     f.on('ready', () => resolve(f));
     f.on('error', reject);
+    f.parse();
   });
 }
 
