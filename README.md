@@ -54,9 +54,9 @@ Documents), lists your dynasty saves, and lets you pick one by number.
 5. Saves everything to a **new copy** named `<yoursave>-REALCOACHES`. Your
    original save is never touched — load the copy in the game.
 
-The correct game **schema is auto-detected** from each save, so the tool works
-across game patches as long as a matching schema file is bundled (both the
-pre-patch and current schemas ship in the release).
+The game **schema is auto-selected** from each save (falling back to the newest
+bundled schema for versions it doesn't recognize), so the tool works across game
+patches without needing an update for every new patch.
 
 ## Coaches actually imported
 
@@ -114,11 +114,17 @@ npm run build-exe                produce build\dist\CFB27-Real-Coaches.zip
 folder + zip. It preflights first — validating `coaches.json` and loading every
 bundled schema — so a broken asset fails the build rather than a user's run.
 
-### Adding a schema for a new game patch
+### Schemas & game patches
 
-Drop the new schema file into `schema\`, named `CFB27_<major>_<minor>.gz` (the
-tool also accepts `C27_<major>_<minor>.gz`), and rebuild. A save whose version
-has no bundled schema gets a clear error naming the exact file to add.
+The CFB27 table layouts this tool reads and writes (coach identity, likeness, and
+career stats) are stable across game patches — three different schema versions
+(468, 472, 809) parse the same save byte-identically. So the tool prefers an exact
+version match but otherwise falls back to the newest bundled schema, and a save
+from a brand-new patch still works.
+
+If you ever need to force a specific schema, drop a `CFB27_<major>_<minor>.gz` (or
+`C27_<major>_<minor>.gz`) file into the `schema\` folder next to the exe — the
+newest file there is used for any save whose version isn't an exact match.
 
 ### Regenerating the dataset (optional)
 

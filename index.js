@@ -75,7 +75,17 @@ async function main() {
     console.log(`${c.dim}Mode: ${dryRun ? 'dry run (no writes)' : 'apply'}${namesOnly ? ', names+faces only (no stats)' : ''}${c.reset}\n`);
   }
 
-  const file = await openSave(savePath, { autoUnempty: false });
+  const file = await openSave(savePath, {
+    autoUnempty: false,
+    onSchema: ({ expected, exact, name }) => {
+      if (asJson) return;
+      if (exact) {
+        console.log(`${c.dim}Schema: ${expected.major}_${expected.minor} (exact match)${c.reset}\n`);
+      } else {
+        console.log(`${c.dim}Schema: save reports ${expected.major}_${expected.minor}; using newest bundled schema ${name} (CFB27 layouts are stable across patches).${c.reset}\n`);
+      }
+    },
+  });
   const teamTable = await readTable(file, 'team');
   const coachTable = await readTable(file, 'coach');
 
