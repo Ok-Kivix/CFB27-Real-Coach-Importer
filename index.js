@@ -1,9 +1,13 @@
 #!/usr/bin/env node
-// Real Coaches — correct a CFB27 dynasty save's head coaches to their real-life
-// identities: name + shipped likeness (portrait + 3D head recipe) + real historic
-// career stats. Writes to a SIBLING COPY (<save>-REALCOACHES); the source is never
-// touched. Tables resolved by stable uniqueId only (CLAUDE.md §3); the CareerCoachStats
-// row is reached by following Coach.CareerStats and verifying the target's uniqueId.
+// Real Coaches — correct a CFB27 dynasty save's generic head coaches to their
+// real-life identities: name + shipped likeness (portrait + 3D head recipe). A
+// corrected coach also gets their real historic career record written, because a
+// replaced generic inherited the placeholder's empty 0-0 stat slot. Coaches EA
+// already ships correctly are left ALONE — their stat slot already holds EA's real
+// career record, so we never overwrite it. Writes to a SIBLING COPY
+// (<save>-REALCOACHES); the source is never touched. Tables resolved by stable
+// uniqueId only (CLAUDE.md §3); the CareerCoachStats row is reached by following
+// Coach.CareerStats and verifying the target's uniqueId.
 //
 // Safety: only CPU coaches are edited. The user's own head coach is skipped (the
 // in-game coach editor has crashed on an edited coach — see docs/vision/REAL_COACHES.md).
@@ -145,7 +149,7 @@ async function main() {
       }
       console.log();
     }
-    console.log(`${c.dim}Already correct (name+face): ${alreadyOk.length}${namesOnly ? '' : ` — historic stats ${dryRun ? 'would be' : 'will be'} (re)written where available`}${c.reset}`);
+    console.log(`${c.dim}Already correct (name+face): ${alreadyOk.length} — left as shipped (EA's real career stats kept)${c.reset}`);
     if (skipped.length) {
       console.log(`${c.dim}Skipped: ${skipped.length}${c.reset}`);
       for (const s of skipped) console.log(`  ${c.gray}${s.team}: ${s.reason}${c.reset}`);
@@ -182,8 +186,12 @@ async function main() {
       }
       idCount++;
     }
-    // Historic stats.
-    if (!namesOnly && d.stats && p.statsRef) {
+    // Historic stats — ONLY for coaches whose identity we just corrected. An
+    // already-correct coach's stat slot already holds EA's shipped real record
+    // (verified accurate), so we leave it untouched rather than overwrite it with
+    // our hand-collected numbers. A replaced generic, by contrast, inherited the
+    // placeholder's empty 0-0 record, so its real historic record must be written.
+    if (!namesOnly && !p.nameMatches && d.stats && p.statsRef) {
       const cr = p.statsRef.record;
       for (const [key, field] of Object.entries(STAT_FIELDS)) {
         if (d.stats[key] == null) continue;

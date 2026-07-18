@@ -46,8 +46,11 @@ Documents), lists your dynasty saves, and lets you pick one by number.
 2. Compares each to the real coach for that school (bundled in `coaches.json`).
 3. For any coach that's generic/wrong **and** has a real likeness in the game,
    sets the correct name + face.
-4. Writes each coach's real **career record** (wins/losses, bowls, conference
-   titles, national titles) into the save's coach stats.
+4. For those corrected coaches only, writes their real **career record**
+   (wins/losses, bowls, conference titles, national titles) — because a replaced
+   generic inherited the placeholder's empty `0-0` record. Coaches EA already
+   ships correctly are **left untouched**; the game already gives them their real
+   career stats, so there's nothing to fix.
 5. Saves everything to a **new copy** named `<yoursave>-REALCOACHES`. Your
    original save is never touched — load the copy in the game.
 
@@ -71,10 +74,10 @@ placeholders. This is the full list of that correction:
 | Southern Miss | Blake Anderson | Yes |
 | Utah State | Bronco Mendenhall | Yes |
 
-`coaches.json` additionally bundles all 138 FBS coaches (not just this table)
-so the tool can also (re)write **historic career stats** onto every already-correct
-coach — see [What it does](#what-it-does). Only the seven above ever get their
-*name or face* changed.
+`coaches.json` bundles all 138 FBS coaches (for name-matching), but only the seven
+above are ever changed — their name, face, and (where a real record exists)
+historic career stats. Everyone else EA already ships correctly, including their
+career stats, and is left untouched.
 
 ## Editing the coach data
 
