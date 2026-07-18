@@ -9,12 +9,13 @@
 // uniqueId only (CLAUDE.md §3); the CareerCoachStats row is reached by following
 // Coach.CareerStats and verifying the target's uniqueId.
 //
-// Safety: only CPU coaches are edited. The user's own head coach is skipped (the
-// in-game coach editor has crashed on an edited coach — see docs/vision/REAL_COACHES.md).
-// The name+likeness swap is in-game validated; the historic-stat write is NOT yet
-// validated in-game — pass --names-only for the proven-safe path.
+// Safety: by default every generic coach is corrected, INCLUDING the one you
+// control (name + face + real record). Pass --skip-my-coach to leave your own coach
+// alone — useful mid-dynasty or to avoid the in-game "Edit Coach" screen crash that
+// has occurred on an edited coach. The name+likeness swap is in-game validated; the
+// historic-stat write is NOT yet validated in-game — pass --names-only to skip it.
 //
-// Usage: node index.js [savePath] [--dry-run] [--names-only] [--out=<path>] [--json]
+// Usage: node index.js [savePath] [--dry-run] [--names-only] [--skip-my-coach] [--out=<path>] [--json]
 const fs = require('fs');
 const path = require('path');
 const paths = require('./paths');
@@ -33,6 +34,11 @@ const positional = args.filter((a) => !a.startsWith('--'));
 const dryRun = args.includes('--dry-run');
 const namesOnly = args.includes('--names-only');
 const asJson = args.includes('--json');
+// By default EVERY generic coach is corrected, including the one YOU control
+// (name + face + real career record). Opt out with --skip-my-coach to leave your
+// own coach untouched — useful mid-dynasty, or to avoid the in-game "Edit Coach"
+// screen crash that has occurred on an edited coach.
+const skipMyCoach = args.includes('--skip-my-coach');
 const flag = (name) => {
   const hit = args.find((a) => a.startsWith(`--${name}=`));
   return hit ? hit.slice(name.length + 3) : undefined;
@@ -114,7 +120,8 @@ async function main() {
     if (teamIndex === undefined) { skipped.push({ team: d.team, reason: 'team not in this save' }); continue; }
     const rec = hcByTeamIndex.get(teamIndex);
     if (!rec) { skipped.push({ team: d.team, reason: 'no head coach on this team' }); continue; }
-    if (sf(rec, 'IsUserControlled') === true) { skipped.push({ team: d.team, reason: 'user-controlled — your coach, left alone' }); continue; }
+    const isUser = sf(rec, 'IsUserControlled') === true;
+    if (isUser && skipMyCoach) { skipped.push({ team: d.team, reason: 'your coach — left alone (--skip-my-coach)' }); continue; }
 
     const curFirst = sf(rec, 'FirstName'), curLast = sf(rec, 'LastName');
     const nameMatches = norm(curFirst) === norm(d.firstName) && norm(curLast) === norm(d.lastName);
@@ -122,7 +129,7 @@ async function main() {
     const assetMatches = d.asset ? curAsset === d.asset.assetName : true;
 
     plan.push({
-      team: d.team, teamIndex, rec, data: d,
+      team: d.team, teamIndex, rec, data: d, isUser,
       before: { first: curFirst, last: curLast, asset: curAsset, isNIL: sf(rec, 'IsNIL') },
       nameMatches, assetMatches,
       classification: (nameMatches && assetMatches) ? 'already-correct' : 'correcting',
@@ -143,9 +150,9 @@ async function main() {
   const alreadyOk = plan.filter((p) => p.classification === 'already-correct');
   if (asJson) {
     console.log(JSON.stringify({
-      save: savePath, dryRun, namesOnly,
+      save: savePath, dryRun, namesOnly, skipMyCoach,
       counts: { matched: plan.length, correcting: correcting.length, alreadyCorrect: alreadyOk.length, skipped: skipped.length },
-      correcting: correcting.map((p) => ({ team: p.team, from: `${p.before.first} ${p.before.last}`, to: `${p.data.firstName} ${p.data.lastName}`, asset: p.data.asset ? p.data.asset.assetName : null, hasStats: !!p.data.stats && !!p.statsRef })),
+      correcting: correcting.map((p) => ({ team: p.team, isUser: p.isUser, from: `${p.before.first} ${p.before.last}`, to: `${p.data.firstName} ${p.data.lastName}`, asset: p.data.asset ? p.data.asset.assetName : null, hasStats: !!p.data.stats && !!p.statsRef })),
       skipped,
     }, null, 2));
   } else {
@@ -155,9 +162,15 @@ async function main() {
       for (const p of correcting) {
         const face = p.data.asset ? `${c.green}face✓${c.reset}` : `${c.gray}no asset${c.reset}`;
         const stats = !p.data.stats ? `${c.gray}no stats${c.reset}` : (p.statsRef ? `${c.green}stats✓${c.reset}` : `${c.red}stats-ref empty${c.reset}`);
-        console.log(`  ${c.bold}${p.team.padEnd(18)}${c.reset} ${p.before.first} ${p.before.last} ${c.dim}→${c.reset} ${c.green}${p.data.firstName} ${p.data.lastName}${c.reset}  [${face}, ${namesOnly ? c.gray + 'stats skipped' + c.reset : stats}]`);
+        const tag = p.isUser ? ` ${c.cyan}(your coach)${c.reset}` : '';
+        console.log(`  ${c.bold}${p.team.padEnd(18)}${c.reset} ${p.before.first} ${p.before.last} ${c.dim}→${c.reset} ${c.green}${p.data.firstName} ${p.data.lastName}${c.reset}${tag}  [${face}, ${namesOnly ? c.gray + 'stats skipped' + c.reset : stats}]`);
       }
       console.log();
+      if (correcting.some((p) => p.isUser)) {
+        console.log(`${c.yellow}⚠ Your own coach is being corrected (name + face${namesOnly ? '' : ' + real career record, replacing your current win-loss'}).${c.reset}`);
+        console.log(`${c.yellow}  Known risk: opening the in-game "Edit Coach" screen on an edited coach has crashed the game.${c.reset}`);
+        console.log(`${c.yellow}  Use --skip-my-coach to leave your coach alone. (Either way this writes to a COPY — your original is safe.)${c.reset}\n`);
+      }
     }
     console.log(`${c.dim}Already correct (name+face): ${alreadyOk.length} — left as shipped (EA's real career stats kept)${c.reset}`);
     if (skipped.length) {
@@ -201,6 +214,7 @@ async function main() {
     // (verified accurate), so we leave it untouched rather than overwrite it with
     // our hand-collected numbers. A replaced generic, by contrast, inherited the
     // placeholder's empty 0-0 record, so its real historic record must be written.
+    // This includes your own coach by default (opt out with --skip-my-coach).
     if (!namesOnly && !p.nameMatches && d.stats && p.statsRef) {
       const cr = p.statsRef.record;
       for (const [key, field] of Object.entries(STAT_FIELDS)) {

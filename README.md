@@ -32,9 +32,15 @@ Open a Command Prompt in the unzipped folder to pass flags:
 Real-Coaches.exe                 pick your save, then correct a COPY
 Real-Coaches.exe --dry-run       audit only — show what would change, write nothing
 Real-Coaches.exe --names-only    rename + face only; skip historic stats
+Real-Coaches.exe --skip-my-coach leave the coach YOU control untouched
 Real-Coaches.exe --json          machine-readable audit
 Real-Coaches.exe "C:\path\to\DYNASTY-MYSAVE"
 ```
+
+By default the tool corrects **every** generic coach, including the one you control
+— so if you're playing as a made-up coach at one of the seven teams below, you get
+the real name, face, and career record too. Add `--skip-my-coach` to leave your own
+coach exactly as-is (handy mid-dynasty, so your win-loss record isn't replaced).
 
 With no path given, it auto-detects your saves folder at
 `Documents\EA SPORTS College Football 27\saves` (including a OneDrive-redirected
@@ -89,7 +95,10 @@ Notepad to add or change a coach, save, and re-run the tool — no rebuild neede
 ## Safety notes
 
 - **Writes a copy, never your original.** Load the `-REALCOACHES` file in-game.
-- **Your own coach is left alone** (only CPU coaches are edited).
+- **Your own coach is corrected too, by default** (name + face + real record). Use
+  `--skip-my-coach` to leave it untouched. Heads-up: editing a coach has crashed the
+  in-game *Edit Coach* screen, so avoid that screen on your own coach afterward — or
+  use `--skip-my-coach`. Sidelines and menus are fine.
 - The **name + face** swap is confirmed working in-game. The **historic-stat**
   write has not been fully game-tested yet — if a save misbehaves, re-run with
   `--names-only` for the proven-safe path.
