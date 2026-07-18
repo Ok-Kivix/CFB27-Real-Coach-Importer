@@ -64,19 +64,22 @@ EA ships a fresh CFB27 roster with real, correct coaches for almost every FBS
 team already — the tool only needs to *replace* the handful shipped as generic
 placeholders. This is the full list of that correction:
 
-| Team | Placeholder replaced with | Real likeness | Historic stats |
+| Team | Placeholder replaced with | Real likeness | Career record |
 |---|---|---|---|
-| Colorado | Deion Sanders | Yes | Yes |
-| Iowa | Kirk Ferentz | Yes | Yes |
-| Miami | Mario Cristobal | Yes | Yes |
-| North Carolina | Bill Belichick | Yes | Correcting in next build |
-| North Texas | Neal Brown | No — no shipped likeness, name only | Yes |
-| Southern Miss | Blake Anderson | Yes | Yes |
-| Utah State | Bronco Mendenhall | Yes | Yes |
+| Colorado | Deion Sanders | Yes | 16–21 |
+| Iowa | Kirk Ferentz | Yes | 213–128 |
+| Miami | Mario Cristobal | Yes | 97–79 |
+| North Carolina | Bill Belichick | Yes | 4–8 (college only) |
+| North Texas | Neal Brown | No — no shipped likeness, name only | 72–51 |
+| Southern Miss | Blake Anderson | Yes | 74–54 |
+| Utah State | Bronco Mendenhall | Yes | 146–95 |
 
 These seven are the only coaches ever changed. Everyone else on the roster is
 already correct as EA shipped them — name, face, and career stats — and is left
 untouched.
+
+> Career records are **college** head-coaching records (the game only tracks
+> college coaching). Bill Belichick's is his 2025 UNC record, not his NFL career.
 
 ## Editing the coach data
 
@@ -119,15 +122,16 @@ has no bundled schema gets a clear error naming the exact file to add.
 
 ### Regenerating the dataset (optional)
 
-`coaches.json` is generated from `stats-source.json` (hand-collected career
-records, cited inside the file) plus likeness assets read from a clean save:
+`coaches.json` is generated from two hand-curated sources — `GENERIC_FILLS` in
+`build-dataset.mjs` (which real coach + likeness belongs at each generic school)
+and `stats-source.json` (their cited college career records). No game save is
+needed:
 
 ```
-node build-dataset.mjs path\to\a\clean\DYNASTY-save
+node build-dataset.mjs
 ```
 
-Edit `stats-source.json` (records) or `GENERIC_FILLS` in `build-dataset.mjs`
-(which real coach belongs at a generic school) and re-run.
+Edit either source and re-run to regenerate `coaches.json`.
 
 ## Credits & disclaimer
 
