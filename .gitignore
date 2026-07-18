@@ -1,0 +1,8 @@
+# Bundled runtime + deps (recreated by setup.cmd) — not committed
+node/
+node_modules/
+
+# Tool output / working saves
+*-REALCOACHES
+*-REALCOACHES.backup
+reference-save

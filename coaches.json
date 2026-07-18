@@ -1,0 +1,2528 @@
+{
+  "generatedFrom": "DYNASTY-REALCOACHES",
+  "generatedAt": "2026-07-18",
+  "count": 138,
+  "coaches": [
+    {
+      "team": "Air Force",
+      "firstName": "Troy",
+      "lastName": "Calhoun",
+      "asset": {
+        "assetName": "Unique_C_CalhounTroy_32",
+        "presentationId": 32,
+        "portrait": 589,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 139,
+        "losses": 97
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Akron",
+      "firstName": "Joe",
+      "lastName": "Moorhead",
+      "asset": {
+        "assetName": "Unique_C_MoorheadJoe_36",
+        "presentationId": 36,
+        "portrait": 781,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 27,
+        "losses": 47
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Alabama",
+      "firstName": "Kalen",
+      "lastName": "DeBoer",
+      "asset": {
+        "assetName": "Unique_C_DeBoerKalen_431",
+        "presentationId": 431,
+        "portrait": 619,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 57,
+        "losses": 17
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "App St.",
+      "firstName": "Dowell",
+      "lastName": "Loggains",
+      "asset": {
+        "assetName": "Unique_C_LoggainsDowell_434",
+        "presentationId": 434,
+        "portrait": 754,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 5,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Arizona",
+      "firstName": "Brent",
+      "lastName": "Brennan",
+      "asset": {
+        "assetName": "Unique_C_BrennanBrent_437",
+        "presentationId": 437,
+        "portrait": 578,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 47,
+        "losses": 60
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Arizona State",
+      "firstName": "Kenny",
+      "lastName": "Dillingham",
+      "asset": {
+        "assetName": "Unique_C_DillinghamKenny_440",
+        "presentationId": 440,
+        "portrait": 629,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 22,
+        "losses": 16
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Arkansas",
+      "firstName": "Ryan",
+      "lastName": "Silverfield",
+      "asset": {
+        "assetName": "Unique_C_SilverfieldRyan_599",
+        "presentationId": 599,
+        "portrait": 864,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 50,
+        "losses": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Arkansas State",
+      "firstName": "Butch",
+      "lastName": "Jones",
+      "asset": {
+        "assetName": "Unique_C_JonesButch_446",
+        "presentationId": 446,
+        "portrait": 711,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 110,
+        "losses": 91
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Army",
+      "firstName": "Jeff",
+      "lastName": "Monken",
+      "asset": {
+        "assetName": "Unique_C_MonkenJeff_449",
+        "presentationId": 449,
+        "portrait": 778,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 89,
+        "losses": 63
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Auburn",
+      "firstName": "Alex",
+      "lastName": "Golesh",
+      "asset": {
+        "assetName": "Unique_C_GoleshAlex_785",
+        "presentationId": 785,
+        "portrait": 665,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 23,
+        "losses": 15
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Ball State",
+      "firstName": "Mike",
+      "lastName": "Uremovich",
+      "asset": {
+        "assetName": "Unique_C_UremovichMike_455",
+        "presentationId": 455,
+        "portrait": 895,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Baylor",
+      "firstName": "Dave",
+      "lastName": "Aranda",
+      "asset": {
+        "assetName": "Unique_C_ArandaDave_458",
+        "presentationId": 458,
+        "portrait": 540,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 36,
+        "losses": 37
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Boise State",
+      "firstName": "Spencer",
+      "lastName": "Danielson",
+      "asset": {
+        "assetName": "Unique_C_DanielsonSpencer_461",
+        "presentationId": 461,
+        "portrait": 614,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 24,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Boston College",
+      "firstName": "Bill",
+      "lastName": "O'Brien",
+      "asset": {
+        "assetName": "Unique_C_OBrienBill_464",
+        "presentationId": 464,
+        "portrait": 805,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 24,
+        "losses": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Bowling Green",
+      "firstName": "Eddie",
+      "lastName": "George",
+      "asset": {
+        "assetName": "Unique_C_GeorgeEddie_467",
+        "presentationId": 467,
+        "portrait": 936,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 4,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Buffalo",
+      "firstName": "Pete",
+      "lastName": "Lembo",
+      "asset": {
+        "assetName": "Unique_C_LemboPete_470",
+        "presentationId": 470,
+        "portrait": 744,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 47,
+        "losses": 40
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "BYU",
+      "firstName": "Kalani",
+      "lastName": "Sitake",
+      "asset": {
+        "assetName": "Unique_C_SitakeKalani_473",
+        "presentationId": 473,
+        "portrait": 867,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 84,
+        "losses": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "C. Carolina",
+      "firstName": "Ryan",
+      "lastName": "Beard",
+      "asset": {
+        "assetName": "Unique_C_BeardRyan_626",
+        "presentationId": 626,
+        "portrait": 559,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 7,
+        "losses": 5
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "C. Michigan",
+      "firstName": "Matt",
+      "lastName": "Drinkall",
+      "asset": {
+        "assetName": "Unique_C_DrinkallMatt_479",
+        "presentationId": 479,
+        "portrait": 633,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "California",
+      "firstName": "Tosh",
+      "lastName": "Lupoi",
+      "asset": {
+        "assetName": "Unique_C_LupoiTosh_682",
+        "presentationId": 682,
+        "portrait": 946,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Charlotte",
+      "firstName": "Tim",
+      "lastName": "Albin",
+      "asset": {
+        "assetName": "Unique_C_AlbinTim_482",
+        "presentationId": 482,
+        "portrait": 532,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 34,
+        "losses": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Cincinnati",
+      "firstName": "Scott",
+      "lastName": "Satterfield",
+      "asset": {
+        "assetName": "Unique_C_SatterfieldScott_485",
+        "presentationId": 485,
+        "portrait": 849,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 87,
+        "losses": 62
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Clemson",
+      "firstName": "Dabo",
+      "lastName": "Swinney",
+      "asset": {
+        "assetName": "Unique_C_SwinneyDabo_488",
+        "presentationId": 488,
+        "portrait": 885,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 186,
+        "losses": 53,
+        "ncWins": 2
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Colorado",
+      "firstName": "Deion",
+      "lastName": "Sanders",
+      "asset": {
+        "assetName": "Unique_C_SandersDeion_494",
+        "presentationId": 494,
+        "portrait": 846,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 16,
+        "losses": 21
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Colorado State",
+      "firstName": "Jim",
+      "lastName": "Mora",
+      "asset": {
+        "assetName": "Unique_C_MoraJimL_770",
+        "presentationId": 770,
+        "portrait": 782,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 73,
+        "losses": 53
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Delaware",
+      "firstName": "Ryan",
+      "lastName": "Carty",
+      "asset": {
+        "assetName": "Unique_C_CartyRyan_500",
+        "presentationId": 500,
+        "portrait": 593,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 7,
+        "losses": 6
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Duke",
+      "firstName": "Manny",
+      "lastName": "Diaz",
+      "asset": {
+        "assetName": "Unique_C_DiazManny_503",
+        "presentationId": 503,
+        "portrait": 626,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 39,
+        "losses": 24
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "E. Michigan",
+      "firstName": "Chris",
+      "lastName": "Creighton",
+      "asset": {
+        "assetName": "Unique_C_CreightonChris_509",
+        "presentationId": 509,
+        "portrait": 609,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 61,
+        "losses": 83
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "East Carolina",
+      "firstName": "Blake",
+      "lastName": "Harrell",
+      "asset": {
+        "assetName": "Unique_C_HarrellBlake_506",
+        "presentationId": 506,
+        "portrait": 686,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 14,
+        "losses": 5
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "FIU",
+      "firstName": "Willie",
+      "lastName": "Simmons",
+      "asset": {
+        "assetName": "Unique_C_SimmonsWillie_518",
+        "presentationId": 518,
+        "portrait": 865,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 7,
+        "losses": 6
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "FLA Atlantic",
+      "firstName": "Zach",
+      "lastName": "Kittley",
+      "asset": {
+        "assetName": "Unique_C_KittleyZach_515",
+        "presentationId": 515,
+        "portrait": 725,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 4,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Florida",
+      "firstName": "Jon",
+      "lastName": "Sumrall",
+      "asset": {
+        "assetName": "Unique_C_SumrallJon_755",
+        "presentationId": 755,
+        "portrait": 882,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 31,
+        "losses": 9
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Florida State",
+      "firstName": "Mike",
+      "lastName": "Norvell",
+      "asset": {
+        "assetName": "Unique_C_NorvellMike_521",
+        "presentationId": 521,
+        "portrait": 803,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 76,
+        "losses": 49
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Fresno State",
+      "firstName": "Matthew",
+      "lastName": "Entz",
+      "asset": {
+        "assetName": "Unique_C_EntzMatthew_524",
+        "presentationId": 524,
+        "portrait": 641,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 9,
+        "losses": 4
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Ga Southern",
+      "firstName": "Clay",
+      "lastName": "Helton",
+      "asset": {
+        "assetName": "Unique_C_HeltonClay_530",
+        "presentationId": 530,
+        "portrait": 693,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 73,
+        "losses": 49
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Georgia",
+      "firstName": "Kirby",
+      "lastName": "Smart",
+      "asset": {
+        "assetName": "Unique_C_SmartKirby_527",
+        "presentationId": 527,
+        "portrait": 869,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 117,
+        "losses": 21,
+        "ncWins": 2
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Georgia State",
+      "firstName": "Dell",
+      "lastName": "McGee",
+      "asset": {
+        "assetName": "Unique_C_McGeeDell_533",
+        "presentationId": 533,
+        "portrait": 771,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 4,
+        "losses": 20
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Georgia Tech",
+      "firstName": "Brent",
+      "lastName": "Key",
+      "asset": {
+        "assetName": "Unique_C_KeyBrent_536",
+        "presentationId": 536,
+        "portrait": 719,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 27,
+        "losses": 20
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Hawai'i",
+      "firstName": "Timmy",
+      "lastName": "Chang",
+      "asset": {
+        "assetName": "Unique_C_ChangTimmy_539",
+        "presentationId": 539,
+        "portrait": 596,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 22,
+        "losses": 29
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Houston",
+      "firstName": "Willie",
+      "lastName": "Fritz",
+      "asset": {
+        "assetName": "Unique_C_FritzWillie_542",
+        "presentationId": 542,
+        "portrait": 657,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 85,
+        "losses": 65
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Illinois",
+      "firstName": "Bret",
+      "lastName": "Bielema",
+      "asset": {
+        "assetName": "Unique_C_BielemaBret_545",
+        "presentationId": 545,
+        "portrait": 568,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 134,
+        "losses": 84
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Indiana",
+      "firstName": "Curt",
+      "lastName": "Cignetti",
+      "asset": {
+        "assetName": "Unique_C_CignettiCurt_548",
+        "presentationId": 548,
+        "portrait": 602,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 46,
+        "losses": 6
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Iowa",
+      "firstName": "Kirk",
+      "lastName": "Ferentz",
+      "asset": {
+        "assetName": "Unique_C_FerentzKirk_551",
+        "presentationId": 551,
+        "portrait": 645,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 213,
+        "losses": 128
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Iowa State",
+      "firstName": "Jimmy",
+      "lastName": "Rogers",
+      "asset": {
+        "assetName": "Unique_C_RogersJimmy_815",
+        "presentationId": 815,
+        "portrait": 836,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 6,
+        "losses": 6
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "James Madison",
+      "firstName": "Billy",
+      "lastName": "Napier",
+      "asset": {
+        "assetName": "Unique_C_NapierBilly_512",
+        "presentationId": 512,
+        "portrait": 795,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 62,
+        "losses": 35
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Jax State",
+      "firstName": "Charles",
+      "lastName": "Kelly",
+      "asset": {
+        "assetName": "Unique_C_KellyCharles_557",
+        "presentationId": 557,
+        "portrait": 716,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 9,
+        "losses": 5
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Kansas",
+      "firstName": "Lance",
+      "lastName": "Leipold",
+      "asset": {
+        "assetName": "Unique_C_LeipoldLance_563",
+        "presentationId": 563,
+        "portrait": 743,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 64,
+        "losses": 68
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Kansas State",
+      "firstName": "Collin",
+      "lastName": "Klein",
+      "asset": {
+        "assetName": "Unique_C_KleinCollin_741",
+        "presentationId": 741,
+        "portrait": 727,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Kennesaw St.",
+      "firstName": "Jerry",
+      "lastName": "Mack",
+      "asset": {
+        "assetName": "Unique_C_MackJerry_569",
+        "presentationId": 569,
+        "portrait": 759,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 10,
+        "losses": 4
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Kent State",
+      "firstName": "Mark",
+      "lastName": "Carney",
+      "asset": {
+        "assetName": "Unique_C_CarneyMark_573",
+        "presentationId": 573,
+        "portrait": 592,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Kentucky",
+      "firstName": "Will",
+      "lastName": "Stein",
+      "asset": {
+        "assetName": "Unique_C_SteinWill_681",
+        "presentationId": 681,
+        "portrait": 876,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Liberty",
+      "firstName": "Jamey",
+      "lastName": "Chadwell",
+      "asset": {
+        "assetName": "Unique_C_ChadwellJamey_578",
+        "presentationId": 578,
+        "portrait": 595,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 64,
+        "losses": 35
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Louisiana",
+      "firstName": "Michael",
+      "lastName": "Desormeaux",
+      "asset": {
+        "assetName": "Unique_C_DesormeauxMicha-_581",
+        "presentationId": 581,
+        "portrait": 933,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 29,
+        "losses": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Louisiana Tech",
+      "firstName": "Sonny",
+      "lastName": "Cumbie",
+      "asset": {
+        "assetName": "Unique_C_CumbieSonny_584",
+        "presentationId": 584,
+        "portrait": 613,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 21,
+        "losses": 34
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Louisville",
+      "firstName": "Jeff",
+      "lastName": "Brohm",
+      "asset": {
+        "assetName": "Unique_C_BrohmJeff_587",
+        "presentationId": 587,
+        "portrait": 583,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 94,
+        "losses": 56
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "LSU",
+      "firstName": "Lane",
+      "lastName": "Kiffin",
+      "asset": {
+        "assetName": "Unique_C_KiffinLane_677",
+        "presentationId": 677,
+        "portrait": 721,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 116,
+        "losses": 52
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Marshall",
+      "firstName": "Tony",
+      "lastName": "Gibson",
+      "asset": {
+        "assetName": "Unique_C_GibsonTony_593",
+        "presentationId": 593,
+        "portrait": 660,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 5,
+        "losses": 7
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Maryland",
+      "firstName": "Mike",
+      "lastName": "Locksley",
+      "asset": {
+        "assetName": "Unique_C_LocksleyMike_596",
+        "presentationId": 596,
+        "portrait": 751,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 39,
+        "losses": 75
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Memphis",
+      "firstName": "Charles",
+      "lastName": "Huff",
+      "asset": {
+        "assetName": "Unique_C_HuffCharles_719",
+        "presentationId": 719,
+        "portrait": 704,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 39,
+        "losses": 25
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Miami",
+      "firstName": "Mario",
+      "lastName": "Cristobal",
+      "asset": {
+        "assetName": "Unique_C_CristobalMario_602",
+        "presentationId": 602,
+        "portrait": 610,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 97,
+        "losses": 79
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Miami (OH)",
+      "firstName": "Chuck",
+      "lastName": "Martin",
+      "asset": {
+        "assetName": "Unique_C_MartinChuck_605",
+        "presentationId": 605,
+        "portrait": 763,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 72,
+        "losses": 74
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Michigan",
+      "firstName": "Kyle",
+      "lastName": "Whittingham",
+      "asset": {
+        "assetName": "Unique_C_WhittinghamKyle_788",
+        "presentationId": 788,
+        "portrait": 911,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 177,
+        "losses": 88
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Michigan State",
+      "firstName": "Pat",
+      "lastName": "Fitzgerald",
+      "asset": {
+        "assetName": "Unique_C_FitzgeraldPat_869",
+        "presentationId": 869,
+        "portrait": 995,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 110,
+        "losses": 101
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Middle Tenn",
+      "firstName": "Derek",
+      "lastName": "Mason",
+      "asset": {
+        "assetName": "Unique_C_MasonDerek_614",
+        "presentationId": 614,
+        "portrait": 765,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 33,
+        "losses": 72
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Minnesota",
+      "firstName": "P. J.",
+      "lastName": "Fleck",
+      "asset": {
+        "assetName": "Unique_C_FleckPJ_617",
+        "presentationId": 617,
+        "portrait": 649,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 96,
+        "losses": 66
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Mississippi St",
+      "firstName": "Jeff",
+      "lastName": "Lebby",
+      "asset": {
+        "assetName": "Unique_C_LebbyJeff_620",
+        "presentationId": 620,
+        "portrait": 740,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 7,
+        "losses": 18
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Missouri",
+      "firstName": "Eliah",
+      "lastName": "Drinkwitz",
+      "asset": {
+        "assetName": "Unique_C_DrinkwitzEliah_623",
+        "presentationId": 623,
+        "portrait": 634,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 58,
+        "losses": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Missouri State",
+      "firstName": "Casey",
+      "lastName": "Woods",
+      "asset": {
+        "assetName": "Unique_C_WoodsCasey_711",
+        "presentationId": 711,
+        "portrait": 918,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Navy",
+      "firstName": "Brian",
+      "lastName": "Newberry",
+      "asset": {
+        "assetName": "Unique_C_NewberryBrian_629",
+        "presentationId": 629,
+        "portrait": 798,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 26,
+        "losses": 12
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "NC State",
+      "firstName": "Dave",
+      "lastName": "Doeren",
+      "asset": {
+        "assetName": "Unique_C_DoerenDave_632",
+        "presentationId": 632,
+        "portrait": 631,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 118,
+        "losses": 74
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "NDSU",
+      "firstName": "Tim",
+      "lastName": "Polasek",
+      "asset": {
+        "assetName": "Unique_C_PolasekTim_874",
+        "presentationId": 874,
+        "portrait": 1031,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Nebraska",
+      "firstName": "Matt",
+      "lastName": "Rhule",
+      "asset": {
+        "assetName": "Unique_C_RhuleMatt_635",
+        "presentationId": 635,
+        "portrait": 827,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 66,
+        "losses": 62
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Nevada",
+      "firstName": "Jeff",
+      "lastName": "Choate",
+      "asset": {
+        "assetName": "Unique_C_ChoateJeff_638",
+        "presentationId": 638,
+        "portrait": 600,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 6,
+        "losses": 19
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "New Mexico",
+      "firstName": "Jason",
+      "lastName": "Eck",
+      "asset": {
+        "assetName": "Unique_C_EckJason_641",
+        "presentationId": 641,
+        "portrait": 637,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 9,
+        "losses": 4
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "New Mexico St.",
+      "firstName": "Tony",
+      "lastName": "Sanchez",
+      "asset": {
+        "assetName": "Unique_C_SanchezTony_644",
+        "presentationId": 644,
+        "portrait": 845,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 27,
+        "losses": 57
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "NIU",
+      "firstName": "Rob",
+      "lastName": "Harley",
+      "asset": {
+        "assetName": "Unique_C_HarleyRob_655",
+        "presentationId": 655,
+        "portrait": 684,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "North Carolina",
+      "firstName": "Bill",
+      "lastName": "Belichick",
+      "asset": {
+        "assetName": "Unique_C_BelichickBill_647",
+        "presentationId": 647,
+        "portrait": 563,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "North Texas",
+      "firstName": "Neal",
+      "lastName": "Brown",
+      "asset": null,
+      "stats": {
+        "wins": 72,
+        "losses": 51
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Northwestern",
+      "firstName": "David",
+      "lastName": "Braun",
+      "asset": {
+        "assetName": "Unique_C_BraunDavid_656",
+        "presentationId": 656,
+        "portrait": 575,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 19,
+        "losses": 19
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Notre Dame",
+      "firstName": "Marcus",
+      "lastName": "Freeman",
+      "asset": {
+        "assetName": "Unique_C_FreemanMarcus_659",
+        "presentationId": 659,
+        "portrait": 654,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 43,
+        "losses": 12
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Ohio",
+      "firstName": "John",
+      "lastName": "Hauser",
+      "asset": {
+        "assetName": "Unique_C_HauserJohn_664",
+        "presentationId": 664,
+        "portrait": 689,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Ohio State",
+      "firstName": "Ryan",
+      "lastName": "Day",
+      "asset": {
+        "assetName": "Unique_C_DayRyan_665",
+        "presentationId": 665,
+        "portrait": 618,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 82,
+        "losses": 12,
+        "ncWins": 1
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Oklahoma",
+      "firstName": "Brent",
+      "lastName": "Venables",
+      "asset": {
+        "assetName": "Unique_C_VenablesBrent_668",
+        "presentationId": 668,
+        "portrait": 898,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 32,
+        "losses": 20
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Oklahoma State",
+      "firstName": "Eric",
+      "lastName": "Morris",
+      "asset": {
+        "assetName": "Unique_C_MorrisEric_650",
+        "presentationId": 650,
+        "portrait": 785,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 22,
+        "losses": 16
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Old Dominion",
+      "firstName": "Ricky",
+      "lastName": "Rahne",
+      "asset": {
+        "assetName": "Unique_C_RahneRicky_674",
+        "presentationId": 674,
+        "portrait": 823,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 30,
+        "losses": 33
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Ole Miss",
+      "firstName": "Pete",
+      "lastName": "Golding",
+      "asset": {
+        "assetName": "Unique_C_GoldingPete_679",
+        "presentationId": 679,
+        "portrait": 664,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 2,
+        "losses": 1
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Oregon",
+      "firstName": "Dan",
+      "lastName": "Lanning",
+      "asset": {
+        "assetName": "Unique_C_LanningDan_680",
+        "presentationId": 680,
+        "portrait": 736,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 48,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Oregon State",
+      "firstName": "JaMarcus",
+      "lastName": "Shephard",
+      "asset": {
+        "assetName": "Unique_C_ShephardJaMarcus_884",
+        "presentationId": 884,
+        "portrait": 1042,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Penn State",
+      "firstName": "Matt",
+      "lastName": "Campbell",
+      "asset": {
+        "assetName": "Unique_C_CampbellMatt_554",
+        "presentationId": 554,
+        "portrait": 590,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 107,
+        "losses": 70
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Pittsburgh",
+      "firstName": "Pat",
+      "lastName": "Narduzzi",
+      "asset": {
+        "assetName": "Unique_C_NarduzziPat_689",
+        "presentationId": 689,
+        "portrait": 796,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 80,
+        "losses": 61
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Purdue",
+      "firstName": "Barry",
+      "lastName": "Odom",
+      "asset": {
+        "assetName": "Unique_C_OdomBarry_692",
+        "presentationId": 692,
+        "portrait": 806,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 46,
+        "losses": 43
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Rice",
+      "firstName": "Scott",
+      "lastName": "Abell",
+      "asset": {
+        "assetName": "Unique_C_AbellScott_695",
+        "presentationId": 695,
+        "portrait": 531,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 5,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Rutgers",
+      "firstName": "Greg",
+      "lastName": "Schiano",
+      "asset": {
+        "assetName": "Unique_C_SchianoGreg_698",
+        "presentationId": 698,
+        "portrait": 853,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 99,
+        "losses": 108
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Sac State",
+      "firstName": "Alonzo",
+      "lastName": "Carter",
+      "asset": {
+        "assetName": "Unique_C_CarterAlonzo_889",
+        "presentationId": 889,
+        "portrait": 985,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Sam Houston",
+      "firstName": "Phil",
+      "lastName": "Longo",
+      "asset": {
+        "assetName": "Unique_C_LongoPhil_701",
+        "presentationId": 701,
+        "portrait": 755,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 2,
+        "losses": 10
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "San Diego St.",
+      "firstName": "Sean",
+      "lastName": "Lewis",
+      "asset": {
+        "assetName": "Unique_C_LewisSean_704",
+        "presentationId": 704,
+        "portrait": 746,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 36,
+        "losses": 44
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "San Jose State",
+      "firstName": "Ken",
+      "lastName": "Niumatalolo",
+      "asset": {
+        "assetName": "Unique_C_NiumataloloKen_707",
+        "presentationId": 707,
+        "portrait": 799,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 119,
+        "losses": 98
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "SMU",
+      "firstName": "Rhett",
+      "lastName": "Lashlee",
+      "asset": {
+        "assetName": "Unique_C_LashleeRhett_710",
+        "presentationId": 710,
+        "portrait": 737,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 38,
+        "losses": 17
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "South Alabama",
+      "firstName": "Major",
+      "lastName": "Applewhite",
+      "asset": {
+        "assetName": "Unique_C_ApplewhiteMajor_713",
+        "presentationId": 713,
+        "portrait": 538,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 8,
+        "losses": 5
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "South Carolina",
+      "firstName": "Shane",
+      "lastName": "Beamer",
+      "asset": {
+        "assetName": "Unique_C_BeamerShane_716",
+        "presentationId": 716,
+        "portrait": 558,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 33,
+        "losses": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Southern Miss",
+      "firstName": "Blake",
+      "lastName": "Anderson",
+      "asset": {
+        "assetName": "Unique_C_AndersonBlake_720",
+        "presentationId": 720,
+        "portrait": 536,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 74,
+        "losses": 54,
+        "confChampWins": 3
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Stanford",
+      "firstName": "Tavita",
+      "lastName": "Pritchard",
+      "asset": {
+        "assetName": "Unique_C_PritchardTavita_924",
+        "presentationId": 924,
+        "portrait": 1056,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Syracuse",
+      "firstName": "Fran",
+      "lastName": "Brown",
+      "asset": {
+        "assetName": "Unique_C_BrownFran_725",
+        "presentationId": 725,
+        "portrait": 584,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 13,
+        "losses": 12
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "TCU",
+      "firstName": "Sonny",
+      "lastName": "Dykes",
+      "asset": {
+        "assetName": "Unique_C_DykesSonny_728",
+        "presentationId": 728,
+        "portrait": 636,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 107,
+        "losses": 80
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Temple",
+      "firstName": "K.C.",
+      "lastName": "Keeler",
+      "asset": {
+        "assetName": "Unique_C_KeelerKC_731",
+        "presentationId": 731,
+        "portrait": 713,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 17,
+        "losses": 19
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Tennessee",
+      "firstName": "Josh",
+      "lastName": "Heupel",
+      "asset": {
+        "assetName": "Unique_C_HeupelJosh_734",
+        "presentationId": 734,
+        "portrait": 698,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 73,
+        "losses": 28
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Texas",
+      "firstName": "Steve",
+      "lastName": "Sarkisian",
+      "asset": {
+        "assetName": "Unique_C_SarkisianSteve_737",
+        "presentationId": 737,
+        "portrait": 848,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 92,
+        "losses": 55
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Texas A&M",
+      "firstName": "Mike",
+      "lastName": "Elko",
+      "asset": {
+        "assetName": "Unique_C_ElkoMike_740",
+        "presentationId": 740,
+        "portrait": 639,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 35,
+        "losses": 16
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Texas State",
+      "firstName": "G. J.",
+      "lastName": "Kinne",
+      "asset": {
+        "assetName": "Unique_C_KinneGJ_743",
+        "presentationId": 743,
+        "portrait": 722,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 23,
+        "losses": 16
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Texas Tech",
+      "firstName": "Joey",
+      "lastName": "McGuire",
+      "asset": {
+        "assetName": "Unique_C_McGuireJoey_746",
+        "presentationId": 746,
+        "portrait": 773,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 35,
+        "losses": 18
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Toledo",
+      "firstName": "Mike",
+      "lastName": "Jacobs",
+      "asset": {
+        "assetName": "Unique_C_JacobsMike_899",
+        "presentationId": 899,
+        "portrait": 1008,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Troy",
+      "firstName": "Gerad",
+      "lastName": "Parker",
+      "asset": {
+        "assetName": "Unique_C_ParkerGerad_752",
+        "presentationId": 752,
+        "portrait": 810,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Tulane",
+      "firstName": "Will",
+      "lastName": "Hall",
+      "asset": {
+        "assetName": "Unique_C_HallWill_909",
+        "presentationId": 909,
+        "portrait": 999,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 14,
+        "losses": 30
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Tulsa",
+      "firstName": "Tre",
+      "lastName": "Lamb",
+      "asset": {
+        "assetName": "Unique_C_LambTre_758",
+        "presentationId": 758,
+        "portrait": 735,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 4,
+        "losses": 8
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UAB",
+      "firstName": "Alex",
+      "lastName": "Mortensen",
+      "asset": {
+        "assetName": "Unique_C_MortensenAlex_762",
+        "presentationId": 762,
+        "portrait": 789,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 2,
+        "losses": 4
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UCF",
+      "firstName": "Scott",
+      "lastName": "Frost",
+      "asset": {
+        "assetName": "Unique_C_FrostScott_764",
+        "presentationId": 764,
+        "portrait": 658,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 40,
+        "losses": 45
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UCLA",
+      "firstName": "Bob",
+      "lastName": "Chesney",
+      "asset": {
+        "assetName": "Unique_C_ChesneyBob_560",
+        "presentationId": 560,
+        "portrait": 598,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 21,
+        "losses": 6
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UConn",
+      "firstName": "Jason",
+      "lastName": "Candle",
+      "asset": {
+        "assetName": "Unique_C_CandleJason_749",
+        "presentationId": 749,
+        "portrait": 591,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 81,
+        "losses": 44
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UL Monroe",
+      "firstName": "Bryant",
+      "lastName": "Vincent",
+      "asset": {
+        "assetName": "Unique_C_VincentBryant_773",
+        "presentationId": 773,
+        "portrait": 899,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 15,
+        "losses": 22
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UMass",
+      "firstName": "Joe",
+      "lastName": "Harasymiak",
+      "asset": {
+        "assetName": "Unique_C_HarasymiakJoe_776",
+        "presentationId": 776,
+        "portrait": 682,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "UNLV",
+      "firstName": "Dan",
+      "lastName": "Mullen",
+      "asset": {
+        "assetName": "Unique_C_MullenDan_779",
+        "presentationId": 779,
+        "portrait": 791,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 113,
+        "losses": 65
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "USC",
+      "firstName": "Lincoln",
+      "lastName": "Riley",
+      "asset": {
+        "assetName": "Unique_C_RileyLincoln_782",
+        "presentationId": 782,
+        "portrait": 830,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 91,
+        "losses": 27
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "USF",
+      "firstName": "Brian",
+      "lastName": "Hartline",
+      "asset": {
+        "assetName": "Unique_C_HartlineBrian_666",
+        "presentationId": 666,
+        "portrait": 688,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Utah",
+      "firstName": "Morgan",
+      "lastName": "Scalley",
+      "asset": {
+        "assetName": "Unique_C_ScalleyMorgan_790",
+        "presentationId": 790,
+        "portrait": 851,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 1,
+        "losses": 0
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Utah State",
+      "firstName": "Bronco",
+      "lastName": "Mendenhall",
+      "asset": {
+        "assetName": "Unique_C_MendenhallBronco_791",
+        "presentationId": 791,
+        "portrait": 775,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 146,
+        "losses": 95
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UTEP",
+      "firstName": "Scotty",
+      "lastName": "Walden",
+      "asset": {
+        "assetName": "Unique_C_WaldenScotty_794",
+        "presentationId": 794,
+        "portrait": 901,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 6,
+        "losses": 22
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "UTSA",
+      "firstName": "Jeff",
+      "lastName": "Traylor",
+      "asset": {
+        "assetName": "Unique_C_TraylorJeff_797",
+        "presentationId": 797,
+        "portrait": 892,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 53,
+        "losses": 26
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Vanderbilt",
+      "firstName": "Clark",
+      "lastName": "Lea",
+      "asset": {
+        "assetName": "Unique_C_LeaClark_800",
+        "presentationId": 800,
+        "portrait": 739,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 26,
+        "losses": 36
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Virginia",
+      "firstName": "Tony",
+      "lastName": "Elliott",
+      "asset": {
+        "assetName": "Unique_C_ElliottTony_803",
+        "presentationId": 803,
+        "portrait": 640,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 22,
+        "losses": 26
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Virginia Tech",
+      "firstName": "James",
+      "lastName": "Franklin",
+      "asset": {
+        "assetName": "Unique_C_FranklinJames_686",
+        "presentationId": 686,
+        "portrait": 652,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 128,
+        "losses": 60
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "W. Kentucky",
+      "firstName": "Ty",
+      "lastName": "Helton",
+      "asset": {
+        "assetName": "Unique_C_HeltonTy_821",
+        "presentationId": 821,
+        "portrait": 694,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 58,
+        "losses": 35
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "W. Michigan",
+      "firstName": "Lance",
+      "lastName": "Taylor",
+      "asset": {
+        "assetName": "Unique_C_TaylorLance_824",
+        "presentationId": 824,
+        "portrait": 887,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "Wake Forest",
+      "firstName": "Jake",
+      "lastName": "Dickert",
+      "asset": {
+        "assetName": "Unique_C_DickertJake_809",
+        "presentationId": 809,
+        "portrait": 627,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 32,
+        "losses": 24
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Washington",
+      "firstName": "Jedd",
+      "lastName": "Fisch",
+      "asset": {
+        "assetName": "Unique_C_FischJedd_812",
+        "presentationId": 812,
+        "portrait": 647,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 32,
+        "losses": 33
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Washington St.",
+      "firstName": "Kirby",
+      "lastName": "Moore",
+      "asset": {
+        "assetName": "Unique_C_MooreKirby_624",
+        "presentationId": 624,
+        "portrait": 779,
+        "isNIL": true
+      },
+      "stats": null,
+      "source": null,
+      "approx": null
+    },
+    {
+      "team": "West Virginia",
+      "firstName": "Rich",
+      "lastName": "Rodriguez",
+      "asset": {
+        "assetName": "Unique_C_RodriguezRich_818",
+        "presentationId": 818,
+        "portrait": 835,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 140,
+        "losses": 99
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Wisconsin",
+      "firstName": "Luke",
+      "lastName": "Fickell",
+      "asset": {
+        "assetName": "Unique_C_FickellLuke_827",
+        "presentationId": 827,
+        "portrait": 646,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 80,
+        "losses": 46
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    },
+    {
+      "team": "Wyoming",
+      "firstName": "Jay",
+      "lastName": "Sawvel",
+      "asset": {
+        "assetName": "Unique_C_SawvelJay_830",
+        "presentationId": 830,
+        "portrait": 850,
+        "isNIL": true
+      },
+      "stats": {
+        "wins": 7,
+        "losses": 17
+      },
+      "source": "https://en.wikipedia.org/wiki/List_of_current_NCAA_Division_I_FBS_football_coaches",
+      "approx": [
+        "overall career HC W-L through 2025 season (July 2026), the era CFB27 reflects; bowl/conf/NC left to EA unless noted"
+      ]
+    }
+  ]
+}
