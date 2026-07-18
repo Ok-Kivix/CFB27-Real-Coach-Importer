@@ -43,7 +43,7 @@ Documents), lists your dynasty saves, and lets you pick one by number.
 ## What it does
 
 1. Reads every FBS head coach in the save.
-2. Compares each to the real coach for that school (bundled in `coaches.json`).
+2. Compares each to who should be coaching that school.
 3. For any coach that's generic/wrong **and** has a real likeness in the game,
    sets the correct name + face.
 4. For those corrected coaches only, writes their real **career record**
@@ -64,20 +64,19 @@ EA ships a fresh CFB27 roster with real, correct coaches for almost every FBS
 team already — the tool only needs to *replace* the handful shipped as generic
 placeholders. This is the full list of that correction:
 
-| Team | Placeholder replaced with | Real likeness |
-|---|---|---|
-| Colorado | Deion Sanders | Yes |
-| Iowa | Kirk Ferentz | Yes |
-| Miami | Mario Cristobal | Yes |
-| North Carolina | Bill Belichick | Yes |
-| North Texas | Neal Brown | No — no shipped likeness, name only |
-| Southern Miss | Blake Anderson | Yes |
-| Utah State | Bronco Mendenhall | Yes |
+| Team | Placeholder replaced with | Real likeness | Historic stats |
+|---|---|---|---|
+| Colorado | Deion Sanders | Yes | Yes |
+| Iowa | Kirk Ferentz | Yes | Yes |
+| Miami | Mario Cristobal | Yes | Yes |
+| North Carolina | Bill Belichick | Yes | Not yet researched |
+| North Texas | Neal Brown | No — no shipped likeness, name only | Yes |
+| Southern Miss | Blake Anderson | Yes | Yes |
+| Utah State | Bronco Mendenhall | Yes | Yes |
 
-`coaches.json` bundles all 138 FBS coaches (for name-matching), but only the seven
-above are ever changed — their name, face, and (where a real record exists)
-historic career stats. Everyone else EA already ships correctly, including their
-career stats, and is left untouched.
+These seven are the only coaches ever changed. Everyone else on the roster is
+already correct as EA shipped them — name, face, and career stats — and is left
+untouched.
 
 ## Editing the coach data
 
