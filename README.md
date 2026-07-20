@@ -107,6 +107,24 @@ Notepad to add or change a coach, save, and re-run the tool — no rebuild neede
   [Coaches actually imported](#coaches-actually-imported) — so he gets the correct name but keeps a
   generic face. Some replaced coaches also have no career-stat slot in the save,
   so their record can't be attached (the audit labels these `stats-ref empty`).
+  Confirmed by inspecting a real save: these coaches' `Coach.CareerStats`
+  reference is genuinely all-zero (no row assigned), not a parsing gap on our
+  end — Age/SeasonsWithTeam are unaffected since those live directly on the
+  Coach record, not behind this reference.
+  - **Allocating a fresh stats row (v2, not built):** the underlying franchise
+    table format supports this — empty rows form a real linked free-list
+    (`table.header.nextRecordToUse` + per-record next-pointers), and the
+    `madden-franchise` library already has safe unempty/relink logic for it
+    (used elsewhere for table3 overflow records), so it's a supported
+    operation, not a binary hack. What's missing: this tool opens saves with
+    `autoUnempty: false` (deliberately, so tables it merely reads aren't
+    mutated as a side effect), so claiming a specific row needs a scoped
+    unempty rather than a global one, and — more importantly — nobody has
+    verified in-game that CFB27 is happy with a coach whose career-stats row
+    goes from absent to populated mid-save. Tracked as a known gap in the
+    sibling `CFB27-Dynasty-Engine` project's `REAL_COACHES.md` design doc.
+    Low risk to prototype (writes only ever land in the disposable
+    `-REALCOACHES` copy), but not implemented here until validated.
 
 ## Building from source (developers)
 
